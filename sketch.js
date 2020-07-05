@@ -97,7 +97,7 @@ slingshot.display();
 
 }
 
-function KeyPressed(){
+function keyPressed(){
   if (keyCode === 32){
     slingshot.attach(this.polygon);
   }
